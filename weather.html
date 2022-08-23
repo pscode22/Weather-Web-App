@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js" defer></script>
+</head>
+
+<body> 
+
+    <div class="backgroundDiv">
+        <img src="" alt="Background Image" class="backgroundImage">
+    </div>   
+
+    <div class="conatainer">
+        <h1>Weather App</h1>
+
+        <div class="searchBar">
+            <input type="text" class="name" placeholder="Search a city" spellcheck="false">
+            <button class="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <section class="infoSection">  
+            <h2><span class="getName"></span></h2> 
+            <h2 class="temp"><span class="temperature"></span></h2>
+            <h2 class="description"><img src="" alt="" class="image"> <span class="weatherType"></span></h2>
+            <p class="humidity"></p>
+            <p class="windSpeed"></p>
+        </section>  
+        
+        <div class="load-bar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
